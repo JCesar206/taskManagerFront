@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-200 dark:bg-gray-800 p-4 fixed w-full top-0 z-50 flex justify-between items-center">
-      <div className="text-xl font-bold">Task Manager</div>
+      <div className="text-xl font-bold">{t("appTitle")}</div>
 
       <div className="flex items-center gap-4">
         <button onClick={toggleTheme} className="cursor-pointer">
