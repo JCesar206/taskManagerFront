@@ -12,7 +12,16 @@ export const translations = {
 		home: "Página principal",
 		tasks: "Tareas",
 		noTasks: "No hay tareas.",
-		copy: "Todos los derechos reservados."
+		copy: "Todos los derechos reservados.",
+		search: "Buscar tareas",
+		personal: "Personal",
+		work: "Trabajo",
+		school: "Escuela",
+		other: "Otros",
+		details: "Detalles",
+		category: "Categoría",
+		state: "Estado",
+		close: "Cerrar"
 	},
 	en: {
 		appTitle: "Task Manager",
@@ -27,6 +36,15 @@ export const translations = {
 		home: "Home page",
 		tasks: "Tasks",
 		noTasks: "There are no tasks.",
-		copy: "All right reserved."
+		copy: "All right reserved.",
+		search: "Search tasks",
+		personal: "Personal",
+		work: "Work",
+		school: "School",
+		other: "Other",
+		details: "Details",
+		category: "Category",
+		state: "Status",
+		close: "Close"
 	},
 };
