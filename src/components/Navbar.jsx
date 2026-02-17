@@ -15,10 +15,10 @@ const Navbar = () => {
       <div className="text-xl font-bold">{t("appTitle")}</div>
 
       <div className="flex items-center gap-4">
-        <button onClick={toggleTheme} className="cursor-pointer">
+        <button onClick={toggleTheme} className="cursor-pointer hover:text-blue-400 dark:hover:text-blue-300">
           {isDark ? <FaMoon size={16}/> : <FaSun size={16}/>}
         </button>
-        <button onClick={toggleLanguage} className="cursor-pointer">{language.toUpperCase()}</button>
+        <button onClick={toggleLanguage} className="cursor-pointer font-semibold hover:text-blue-400 dark:hover:text-blue-300">{language.toUpperCase()}</button>
 
         <button className="md:hidden cursor-pointer" onClick={() => setOpen(!open)}>
           <GiHamburgerMenu size={16}/>
@@ -26,8 +26,8 @@ const Navbar = () => {
       </div>
 
       <div className={`${open ? "block" : "hidden"} md:flex gap-4 absolute md:static bg-gray-200 dark:bg-gray-800 top-full left-0 w-full md:w-auto p-4 md:p-0`}>
-        <a href="#" className="block md:inline">{t("home")}</a>
-        <a href="#" className="block md:inline">{t("tasks")}</a>
+        <a href="#" className="block md:inline font-semibold hover:text-blue-400 dark:hover:text-blue-300">{t("home")}</a>
+        <a href="#" className="block md:inline font-semibold hover:text-blue-400 dark:hover:text-blue-300">{t("tasks")}</a>
       </div>
     </nav>
   );
