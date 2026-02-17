@@ -21,7 +21,9 @@ export const translations = {
 		details: "Detalles",
 		category: "Categoría",
 		state: "Estado",
-		close: "Cerrar"
+		close: "Cerrar",
+		clear: "Limpiar",
+		edit: "Editar"
 	},
 	en: {
 		appTitle: "Task Manager",
@@ -45,6 +47,8 @@ export const translations = {
 		details: "Details",
 		category: "Category",
 		state: "Status",
-		close: "Close"
+		close: "Close",
+		clear: "Clear",
+		edit: "Edit"
 	},
 };
